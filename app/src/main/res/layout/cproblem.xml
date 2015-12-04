@@ -1,0 +1,75 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools" android:layout_width="match_parent"
+    android:layout_height="match_parent" android:paddingLeft="@dimen/activity_horizontal_margin"
+    android:paddingRight="@dimen/activity_horizontal_margin"
+    android:paddingTop="@dimen/activity_vertical_margin"
+    android:paddingBottom="@dimen/activity_vertical_margin"
+    tools:context="com.example.spondulix.ngo.TrendingProblems">
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textAppearance="?android:attr/textAppearanceSmall"
+        android:text="Bad Road Condition"
+        android:textSize="30sp"
+        android:textStyle="bold"
+        android:id="@+id/tvProblem"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true" />
+
+    <ImageView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/img1"
+        android:background="@drawable/unhygienic"
+        android:layout_below="@+id/tvProblem"
+        android:layout_marginTop="49dp" />
+
+
+
+
+
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textAppearance="?android:attr/textAppearanceSmall"
+        android:text="Problem Description"
+        android:textStyle="bold"
+        android:textSize="20sp"
+        android:id="@+id/tvdescription"
+        android:layout_below="@+id/img1"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true" />
+
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Back to Home"
+        android:id="@+id/btnBack"
+        android:layout_alignParentBottom="true"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true" />
+
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="I Own "
+        android:id="@+id/btnIOwn"
+        android:layout_alignParentBottom="true"
+        android:layout_alignRight="@+id/tvProblem"
+        android:layout_alignEnd="@+id/tvProblem" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Location: Iexpress Signal,Vasant Vihar, Bengalruru.The Road Condition in the location enclosed is getting worse with every day..Traffic is increasing and Vidyanikethan School being present on the main road causes more traffic due to school buses. Less road dividers and too many speed breakers make it diffcult to travel"
+
+        android:id="@+id/textView2"
+        android:layout_below="@+id/tvdescription"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true" />
+
+
+</RelativeLayout>

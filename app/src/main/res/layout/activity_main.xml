@@ -1,0 +1,58 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="fill_parent"
+    android:padding="10dp"
+    android:orientation="vertical"
+    android:layout_height="fill_parent"
+    android:background="@drawable/login"
+    android:id="@+id/layout1">
+
+
+    <TextView
+        android:text="Username"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content" />
+
+    <EditText
+        android:id="@+id/etUsername"
+        android:layout_width="match_parent"
+        android:layout_marginBottom="10dp"
+        android:layout_height="wrap_content"
+        android:inputType="text" />
+
+    <TextView
+        android:text="Password"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content" />
+
+    <EditText
+        android:id="@+id/etPassword"
+        android:layout_width="match_parent"
+        android:inputType="textPassword"
+        android:layout_marginBottom="10dp"
+        android:layout_height="wrap_content" />
+
+    <Button
+        android:id="@+id/bLogin"
+        android:layout_width="match_parent"
+        android:layout_marginBottom="10dp"
+        android:layout_height="wrap_content"
+        android:text="@string/LoginButton" />
+
+    <Button
+        android:id="@+id/bRegister"
+        android:layout_width="match_parent"
+        android:layout_marginBottom="10dp"
+        android:layout_height="wrap_content"
+        android:text="@string/RegisterButton" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text=""
+        android:id="@+id/incpass"
+        android:layout_gravity="center_horizontal"
+        android:textSize="20dp"
+        android:textColor="#ff0016" />
+
+</LinearLayout>

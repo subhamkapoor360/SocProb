@@ -1,0 +1,21 @@
+<resources>
+    <string name="SocProb">SocProb</string>
+
+    <string name="hello_world">Hello world!</string>
+    <string name="action_settings">Settings</string>
+    <string name="LoginButton">LOGIN</string>
+    <string name="RegisterButton">REGISTER</string>
+    <string name="signupuser">Sign Up as User</string>
+    <string name="signupngo">Sign Up As NGO</string>
+    <string name="Register">Register</string>
+    <string name="Owned">Owned</string>
+    <string name="New">Post New Problem</string>
+    <string name="picupld">Upload Picture</string>
+    <string name="loc">Location</string>
+    <string name="Donate">Donate</string>
+    <string name="Submit">Submit</string>
+    <string name="Amount">Enter Amount</string>
+    <string name="sbmt">Submit</string>
+    <string name="Own">I Own</string>
+    <string name="dateofincident">Owned on:05/08/2015</string>
+</resources>

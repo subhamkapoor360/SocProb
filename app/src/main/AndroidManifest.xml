@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.kapoor360.subham.socprob" >
+
+    <application
+        android:allowBackup="true"
+        android:icon="@mipmap/ic_launcher"
+        android:label="@string/SocProb"
+        android:theme="@style/AppTheme" >
+        <activity
+            android:name="com.kapoor360.subham.socprob.MainActivity"
+            android:label="@string/SocProb" >
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:name="com.kapoor360.subham.socprob.Register"
+            android:label="@string/SocProb" >
+       </activity>
+        <activity
+            android:name="com.kapoor360.subham.socprob.regasuser"
+            android:label="@string/SocProb" >
+            </activity>
+        <activity
+            android:name="com.kapoor360.subham.socprob.regasngo"
+            android:label="@string/SocProb" >
+            </activity>
+        <activity
+            android:name="com.kapoor360.subham.socprob.Home"
+            android:label="@string/SocProb" >
+            </activity>
+        <activity
+            android:name="com.kapoor360.subham.socprob.NewProblem"
+            android:label="@string/SocProb" >
+            </activity>
+        <activity
+            android:name="com.kapoor360.subham.socprob.Donate"
+            android:label="@string/SocProb" >
+        </activity>
+        <activity
+            android:name="com.kapoor360.subham.socprob.Tp"
+            android:label="@string/SocProb" >
+            </activity>
+        <activity
+            android:name="com.kapoor360.subham.socprob.Cproblem"
+            android:label="@string/SocProb" >
+            </activity>
+    </application>
+
+</manifest>
